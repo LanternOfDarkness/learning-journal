@@ -23,7 +23,20 @@
 - Порада: Почни всередині TaskList, а коли з’явиться складність (наприклад: валідація, фокус, стилі, стани) — винесеш окремо.
 
 ## Done:
-- 
+- Understand form events.
+- Understand working with array.
+
+## Problem:
+``` 
+let allTasks = tasks;
+allTasks.push(newTask);
+setTasks(allTasks);
+```
+## Fix:
+```
+setTasks([...tasks, { id, title: newTaskTitle, completed: false }]);
+```
+
 
 ## Link
 - [Repository](https://github.com/LanternOfDarkness/todo-app) - `todo-app` repository
