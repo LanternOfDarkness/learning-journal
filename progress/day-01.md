@@ -18,6 +18,10 @@
 ## Task 3
 Реалізувати форму, яка дозволяє вводити назву нового завдання та додавати його до списку.
 
+# Questions
+- Does form should be part of TaskList component or better to use separate component?
+- Порада: Почни всередині TaskList, а коли з’явиться складність (наприклад: валідація, фокус, стилі, стани) — винесеш окремо.
+
 ## Done:
 - 
 
