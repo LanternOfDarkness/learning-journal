@@ -11,7 +11,9 @@
 Створити компонент списку завдань, який рендерить масив TaskItem і додає нові завдання через форму.
 
 ## Done: 
--
+- Understand basic work with map.
+- Practice to use imported components.
+- Practice to using interfaces.
 
 ## Link
 - [Repository](https://github.com/LanternOfDarkness/todo-app) - `todo-app` repository
