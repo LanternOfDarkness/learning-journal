@@ -2,7 +2,7 @@
 
 ## Task 1
 
-## Done:
+### Done:
 - Created a new React project with TypeScript
 - Made a TaskItem component with a checkbox and a label.
 - Better understand how is useState working.
@@ -10,7 +10,7 @@
 ## Task 2
 Створити компонент списку завдань, який рендерить масив TaskItem і додає нові завдання через форму.
 
-## Done: 
+### Done: 
 - Understand basic work with map.
 - Practice to use imported components.
 - Practice to using interfaces.
@@ -18,21 +18,21 @@
 ## Task 3
 Реалізувати форму, яка дозволяє вводити назву нового завдання та додавати його до списку.
 
-# Questions
+### Questions
 - Does form should be part of TaskList component or better to use separate component?
 - Порада: Почни всередині TaskList, а коли з’явиться складність (наприклад: валідація, фокус, стилі, стани) — винесеш окремо.
 
-## Done:
+### Done:
 - Understand form events.
 - Understand working with array.
 
-## Problem:
+### Problem:
 ``` 
 let allTasks = tasks;
 allTasks.push(newTask);
 setTasks(allTasks);
 ```
-## Fix:
+### Fix:
 ```
 setTasks([...tasks, { id, title: newTaskTitle, completed: false }]);
 ```
