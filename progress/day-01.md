@@ -15,5 +15,11 @@
 - Practice to use imported components.
 - Practice to using interfaces.
 
+## Task 3
+Реалізувати форму, яка дозволяє вводити назву нового завдання та додавати його до списку.
+
+## Done:
+- 
+
 ## Link
 - [Repository](https://github.com/LanternOfDarkness/todo-app) - `todo-app` repository
